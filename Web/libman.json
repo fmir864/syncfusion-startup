@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "bootstrap@5.2.0",
+      "destination": "wwwroot/lib/bootstrap/",
+      "files": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap.css.map",
+        "dist/css/bootstrap.min.css",
+        "dist/css/bootstrap.min.css.map",
+        "dist/js/bootstrap.bundle.js",
+        "dist/js/bootstrap.bundle.js.map",
+        "dist/js/bootstrap.bundle.min.js",
+        "dist/js/bootstrap.bundle.min.js.map",
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/lib/jquery/",
+      "files": [
+        "dist/jquery.js",
+        "dist/jquery.min.js",
+        "dist/jquery.min.map",
+        "dist/jquery.slim.js",
+        "dist/jquery.slim.min.js",
+        "dist/jquery.slim.min.map",
+        "README.md",
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "library": "jquery-validation@1.19.5",
+      "destination": "wwwroot/lib/jquery-validation/",
+      "files": [
+        "dist/additional-methods.js",
+        "dist/additional-methods.min.js",
+        "dist/jquery.validate.js",
+        "dist/jquery.validate.min.js",
+        "LICENSE.md",
+        "README.md"
+      ]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@4.0.0",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/",
+      "files": [
+        "dist/jquery.validate.unobtrusive.js",
+        "dist/jquery.validate.unobtrusive.min.js",
+        "LICENSE.txt",
+        "README.md"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "@fortawesome/fontawesome-free@6.1.2",
+      "destination": "wwwroot/lib/fortawesome/fontawesome-free/",
+      "files": [
+        "css/all.css",
+        "css/all.min.css",
+        "webfonts/fa-solid-900.woff2",
+        "webfonts/fa-solid-900.ttf",
+        "webfonts/fa-brands-400.woff2",
+        "webfonts/fa-brands-400.ttf",
+        "webfonts/fa-regular-400.woff2",
+        "webfonts/fa-regular-400.ttf",
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@syncfusion/ej2-js-es5",
+      "destination": "wwwroot/lib/syncfusion",
+      "files": [
+        "scripts/ej2.min.js",
+        "styles/bootstrap5.css",
+        "styles/bootstrap5-dark.css"
+      ]
+    }
+  ]
+}

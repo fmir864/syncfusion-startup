@@ -1,0 +1,8 @@
+{
+  "name": "syncfusion",
+  "version": "1.0.0",
+  "description": "Syncfusion Web Solution",
+  "dependencies": {
+    "@syncfusion/ej2-js-es5": "^20.2.43"
+  }
+}
